@@ -12,14 +12,14 @@ import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class DataGenerator {
+public class DataSource {
   private static final int DATASOURCE_SIZE = 20;
   private final List<Author> authors;
   private final List<String> contents;
   private final List<String> titles;
   private List<News> datasource;
 
-  public DataGenerator() {
+  public DataSource() {
     titles = new ArrayList<>();
     contents = new ArrayList<>();
     authors = new ArrayList<>();
